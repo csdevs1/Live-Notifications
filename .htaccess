@@ -1,0 +1,7 @@
+RewriteEngine On
+DirectoryIndex /test/Views/Home/index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^user$ /test/Views/User/user.php [NC]
+RewriteRule ^home$ /test/Views/Home/index.php [NC]
