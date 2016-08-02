@@ -87,7 +87,7 @@ function notificationCount(){
 
 $(document).ready(function() 
 {
-	Server = new FancyWebSocket('ws://172.19.6.50:8080');
+	Server = new FancyWebSocket('ws://172.16.205.174:8080');
     Server.bind('open', function()
 	{
     });
