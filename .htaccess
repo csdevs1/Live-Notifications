@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} murmuring-earth-33716.herokuapp.com$ 
+RewriteCond %{HTTP_HOST} phpwebsocket.herokuapp.com$ 
 DirectoryIndex Views/Home/index.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
