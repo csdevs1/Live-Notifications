@@ -1,7 +1,8 @@
 RewriteEngine On
-DirectoryIndex https://murmuring-earth-33716.herokuapp.com/Views/Home/index.php
+RewriteCond %{HTTP_HOST} murmuring-earth-33716.herokuapp.com$ 
+DirectoryIndex Views/Home/index.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-RewriteRule ^user$ https://murmuring-earth-33716.herokuapp.com/Views/User/user.php [NC]
-RewriteRule ^home$ https://murmuring-earth-33716.herokuapp.com/Views/Home/index.php [NC]
+RewriteRule ^user$ Views/User/user.php [NC]
+RewriteRule ^home$ Views/Home/index.php [NC]
