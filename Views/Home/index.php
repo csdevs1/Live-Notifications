@@ -9,6 +9,11 @@
         <script src="Assets/JavaScript/fancywebsocket.js"></script>
     </head>
     <body>
+        <?php 
+            $port = $_SERVER['SERVER_PORT'];
+            $ip = $_SERVER['SERVER_ADDR'];
+            echo "$ip:$port"
+        ?>
         <div id="users">
             <h1>USERS</h1>
         </div>
