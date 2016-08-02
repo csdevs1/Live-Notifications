@@ -3,5 +3,5 @@ DirectoryIndex https://murmuring-earth-33716.herokuapp.com/Views/Home/index.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-RewriteRule ^user$ https://murmuring-earth-33716.herokuapp.com//Views/User/user.php [NC]
+RewriteRule ^user$ https://murmuring-earth-33716.herokuapp.com/Views/User/user.php [NC]
 RewriteRule ^home$ https://murmuring-earth-33716.herokuapp.com/Views/Home/index.php [NC]
