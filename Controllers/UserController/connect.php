@@ -6,10 +6,10 @@
         var $Usuario;
         var $Clave;
         function DBManager(){
-            $this->BaseDatos = "test";
-            $this->Servidor = "localhost";
-            $this->Usuario = "root";
-            $this->Clave = "root";
+            $this->BaseDatos = "sql5129715";
+            $this->Servidor = "sql5.freemysqlhosting.net";
+            $this->Usuario = "sql5129715";
+            $this->Clave = "ylfVjJMDnn";
         }
         function conectar() {
             if(!($con=@mysql_connect($this->Servidor,$this->Usuario,$this->Clave))){

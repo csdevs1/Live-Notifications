@@ -2,7 +2,7 @@
     require_once('AppController.php');
     class UserController extends AppController {
         public function listUsers($id) {
-            $sql="SELECT * FROM user WHERE id='$id';";
+            $sql="SELECT * FROM users WHERE id='$id';";
             $res=$this->consulta_sql($sql);
             $lista=array();
             while($row=mysql_fetch_assoc($res)) {
